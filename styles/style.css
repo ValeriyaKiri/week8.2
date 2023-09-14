@@ -1,0 +1,5 @@
+@font-face {
+    src: url(../assets/fonts/intro-regular.woff) format('woff');
+    src: url(../assets/fonts/intro-regular.woff2) format('woff2');
+	font-family: "Intro-Regular";
+}
