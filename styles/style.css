@@ -1,5 +1,242 @@
 @font-face {
-    src: url(../assets/fonts/intro-regular.woff) format('woff');
-    src: url(../assets/fonts/intro-regular.woff2) format('woff2');
-	font-family: "Intro-Regular";
+  src: url(../assets/fonts/intro-regular.woff) format("woff");
+  font-family: "Intro";
 }
+
+@font-face {
+  src: url(../assets/fonts/RobotoSlab-Light.ttf);
+  font-family: "Roboto";
+}
+
+.menu__button,
+.about__button,
+.block__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #5222d0;
+  color: #fff;
+  font-family: Intro;
+  text-transform: uppercase;
+  border-radius: 100px;
+}
+
+.menu__button {
+  margin-right: 76px;
+  width: 115px;
+  height: 38px;
+  font-size: 13px;
+}
+
+.about__button {
+  width: 270px;
+  height: 84px;
+  font-size: 35px;
+  margin-top: 30px;
+}
+.block__button {
+  width: 135px;
+  height: 38px;
+  font-size: 13px;
+  margin-top: 23px;
+}
+
+.header__menu {
+  margin: 0 auto;
+  display: flex;
+  max-width: 1440px;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.menu__logo {
+  width: 201px;
+  height: 40px;
+  margin-left: 76px;
+}
+
+.menu__button img {
+  width: 14px;
+  padding-left: 5px;
+  margin-bottom: 5px;
+}
+
+.menu__logo {
+  width: 201px;
+  height: 40px;
+  object-fit: cover;
+}
+
+/* -----^Шапка^---- */
+
+.main__container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  max-width: 1440px;
+  flex-wrap: wrap;
+}
+
+.main__about {
+  display: flex;
+  flex-direction: column;
+  width: 542px;
+}
+
+.about__title {
+  font-family: Intro;
+  font-size: 60px;
+  font-style: bold;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.about__text {
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 160%; /* 32px */
+}
+
+.about__button img {
+  width: 42px;
+  height: 28px;
+  padding-left: 17px;
+}
+
+/* --------^Основное^---- */
+
+.footer {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.footer__menu {
+  display: flex;
+  max-width: 542px;
+  justify-content: space-between;
+  margin-left: 126px;
+  margin-bottom: 80px;
+}
+
+.menu__item {
+  color: #5222d0;
+  font-family: Roboto;
+  text-decoration: none;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 160%;
+}
+
+.menu__item:hover {
+  text-decoration: underline;
+}
+
+.item-black {
+  color: #000;
+  margin-top: 86px;
+}
+
+/* --------^Подвал^----- */
+
+.main__block {
+  margin: 0 auto;
+  max-width: 1335px;
+}
+
+.first-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+.second-row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+
+.block__elem1,
+.block__elem2 {
+  max-width: 440px;
+  box-sizing: border-box;
+  padding: 25px 35px;
+}
+
+.block__elem1 img {
+  max-width: 365px;
+}
+
+.block__form {
+  max-width: 365px;
+  max-height: 233px;
+  padding: 20px 18px;
+  margin-right: 35px;
+}
+
+.block__img {
+  background-color: #ec615b;
+  width: 365px;
+  height: 270px;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.block__form {
+  background-color: #ec615b;
+  width: 329px;
+  height: 193px;
+}
+.form__search {
+  height: 50px;
+}
+
+.form__title {
+  color: #fff;
+  margin: 0 6px;
+}
+
+.block__title {
+  color: #000;
+}
+
+.form__title,
+.about__title,
+.block__title {
+  font-family: Intro;
+  font-weight: 900;
+  line-height: 120%;
+  text-transform: uppercase;
+}
+
+.about__title {
+  font-size: 60px;
+  margin: 89px 0 14px;
+}
+
+.title {
+  margin: 0 auto;
+  padding-left: 125px;
+}
+
+.form__title,
+.block__title {
+  font-size: 30px;
+}
+
+.block__text,
+.form__search {
+  font-size: 20px;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 160%;
+}
+
+.border {
+  border: 1px solid #bb2247;
+}
+
+/* --------^Вторая страничка^----- */
